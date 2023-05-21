@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: url(./img/bg.svg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: 20px;
+    color: #333333;
+    font-weight: 500;
+}
+
+
+.main-container{
+    width: 1734px;
+    height: 915px;
+    background: linear-gradient(283.07deg, #F4E8E8 -17.02%, rgba(255, 255, 255, 0.3) 97.42%);
+    box-shadow: 0px 4px 54px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    backdrop-filter: 17px;
+    border: 4px solid white;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    min-height: 10vh;
+    align-items: center;
+    margin: 0 5rem;
+}
+.logo h1{
+    font-weight: 800;
+}
+
+.navigation .nav-items{
+    display: flex;
+    align-items: center;
+}
+
+.nav-items li{
+    margin: 0 2.5rem;
+}
+.nav-items a{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+}
+
+.section-main{
+    display: flex;
+    margin: 6rem 5rem;
+    flex-grow: 1;
+}
+
+.section-main .left-content p{
+    padding-bottom: 2rem;
+}
+.section-main .left-content h1{
+    font-size: 5rem;
+}
+
+.section-main .left-content{
+    width: 100%;
+}
+.section-main .right-content{
+    width: 100%;
+    position: relative;
+}
+.section-main .right-content .images-con{
+    position: relative;
+}
+.circle{
+    position: absolute;
+    left: 50%;
+    z-index: -1;
+    transform: translateX(-50%) translateY(-41px);
+    top: auto;
+}
+.shopper{
+    position: absolute;
+    left: 50%;
+    z-index: 5;
+    transform: translateX(-50%);
+    top: auto;
+}
+
+.dots{
+    position: absolute;
+    right: 0;
+    transform: translateY(-50%);
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dot-1, .dot-2, .dot-3{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: red;
+    margin: .6rem 0;
+    cursor: pointer;
+}
+
+.dot-1{
+    background-color: #EF5DA8;
+}
+.dot-2,.dot-3{
+    background-color: white;
+    border: 1px solid #EF5DA8;
+}
+
+
+.h-btn{
+    color: #EF5DA8 ;
+    margin-top: 3rem;
+    display: inline-block;
+}
